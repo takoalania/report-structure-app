@@ -8,7 +8,7 @@ function App() {
   const [collapsed, setCollapsed] = useState<Set<string>>(new Set());
 
   useEffect(() => {
-    fetch('http://localhost:4000/api/demo')
+    fetch(`${import.meta.env.VITE_API_URL}/api/demo`)
       .then(res => res.json())
       .then(json => setData(json));
   }, []);
