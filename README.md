@@ -1,6 +1,6 @@
-# Splinde Fullstack Coding Challenge
+# Report Structure App
 
-This is a fullstack prototype for the Splinde coding challenge. It includes a Node.js backend serving static demo data and a React + TypeScript frontend that recursively renders and updates nested sections and entries.
+This is a fullstack prototype for Report structure app. It includes a Node.js backend serving static demo data and a React + TypeScript frontend that recursively renders and updates nested sections and entries.
 
 ## Features
 
@@ -55,7 +55,7 @@ docker-compose up --build
 ## Project Structure
 
 ```
-splinde-task/
+report-structure-app/
 ├── client/         # Frontend (React + Vite + TS)
 │   ├── components/ # Recursive renderer
 │   ├── utils/      # Type defs and helpers
